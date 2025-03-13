@@ -6,11 +6,15 @@ body{
     overflow-x: hidden;
     font-family: "Gemunu Libre", sans-serif;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+}
 
 
 header{
     /* background-color: rgb(132, 236, 12); */
-    background-color: rgba(11, 209, 209, 0.767);
+    background-color: rgba(9, 190, 190, 0.767);
     width: 100vw;
     height: 85px;
     display: flex;
@@ -25,8 +29,13 @@ header{
 
 }
 
+.end{
+  color: #FFC107;
+}
+
 h1{
     font-size: 40px;
+    color: white;
 }
 
 ul{
@@ -34,6 +43,10 @@ ul{
     display: flex;
     gap: 35px;
     font-size: 20px;
+}
+
+li{
+  color: white;
 }
 
 .contacts{
@@ -45,8 +58,8 @@ ul{
     justify-content: center;
 }
 
-img{
-    width: 40px;
+.contacts img{
+    width: 35px;
 }
 
 
@@ -62,7 +75,7 @@ img{
     width: 100vw;
     margin-top: -400px;
     z-index: 0;
-    opacity: 0.5; /* Deixa a imagem 70% visível */
+    opacity: 0.4; /* Deixa a imagem 70% visível */
     transition: opacity 0.5s ease-in-out; /* Suaviza a transição */
     
     
@@ -102,10 +115,15 @@ img{
   }
 
   h3{
-    font-size: 30px;
-    color: black;
+    font-size: 30px; 
+    color: #FFC107;;
+    
     
 
+  }
+
+  .titlleapresentation{
+    color: rgb(6, 180, 180);
   }
 
   .apresentation h1{
@@ -114,15 +132,118 @@ img{
 
   p{
     font-size: 25px;
+    color: rgb(34, 32, 32);
+    
   }
 
 
   button{
     width: 125px;
     height: 40px;
-    font-size: 15px;
+    font-size: 18px;
     /* background-color:rgb(132, 236, 12) ; */
     background-color: rgb(11, 209, 209);
     border: none;
     border-radius: 6px;
+    font-family: "Gemunu Libre", sans-serif;
+    color: whitesmoke;
+  }
+
+
+  .imginicio {
+    margin-left: 65%;
+    margin-top: -250px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    /* border: solid black 2px; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(11, 209, 209) ;
+  }
+
+  .imginicio img{
+    width: 300px;
+
+  }
+
+  .cardinicio{
+    width: 100vw;
+    height:752px;
+  }
+
+
+  .cardempresa{
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    justify-content: center;
+    background-color:rgb(7, 167, 167) ;
+    width: 100vw;
+    gap: 20px;
+  
+  }
+
+  .empresaapresentation{
+    /* border: solid black 2px; */
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    padding: 0;
+    margin: 0;
+    margin-top: 190px;
+  
+
+  }
+
+
+  .empresaapresentation h3{
+    font-size: 35px;
+    /* border: solid black 2px; */
+    margin-top: 0%;
+    color: #FFC107;
+  }
+  .empresaapresentation h1{
+    font-size: 50px;
+    margin-top: -5%;
+    color: whitesmoke;
+  }
+  .empresaapresentation p{
+    font-size: 25px;
+    margin-top: -5%;
+    color: whitesmoke;
+  }
+
+  .imgempresa{
+    /* border: solid 2px black; */
+    height: 500px;
+    width: 50%;
+    margin-top: 100px;
+  }
+
+  .imgempresa img{
+    width: 500px;
+  }
+
+  .empresaapresentation button{
+    width: 120px;
+    height: 43px;
+    background-color: #FFC107;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+
+  #flootingimage{
+    animation: float 3s ease-in-out infinite;
   }
