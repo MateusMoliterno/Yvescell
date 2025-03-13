@@ -80,16 +80,16 @@ img{
     width: 15px;
     height: 15px;
     margin: 0 5px;
-    background-color: black;
+    background-color: white;
     border-radius: 50%;
     cursor: pointer;
     z-index:1;
-    border: solid white 1px;
+    border: solid black 1px;
   }
   
   .indicator.active {
-    background-color: white;
-    border: solid black 2px;
+    background-color: rgb(11, 209, 209) ;
+    border: solid white 1px;
   }
 
   .apresentation{
