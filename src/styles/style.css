@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     width: 100vw;
-    /* background-color: black; */
+    /* background-color:rgb(7, 167, 167)   ; */
     overflow-x: hidden;
     font-family: "Gemunu Libre", sans-serif;
 }
@@ -69,14 +69,16 @@ li{
     transition: transform 0.5s ease-in-out;
     width: 100vw;
     z-index: 0;
+    background-color: white;
   }
   
   .slides img {
     width: 100vw;
     margin-top: -400px;
-    z-index: 0;
+    /* z-index: 2; */
     opacity: 0.4; /* Deixa a imagem 70% visível */
     transition: opacity 0.5s ease-in-out; /* Suaviza a transição */
+    background-color: white;
     
     
   }
