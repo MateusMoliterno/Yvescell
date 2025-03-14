@@ -1,0 +1,46 @@
+.produtosapresentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.produtosapresentation p{
+    margin-top: -20px;
+}
+
+.imgprodutos{
+    display: flex;
+    gap: 30px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-bluetoth{
+    /* border: solid black 1px; */
+    background-color: rgb(11, 209, 209) ;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.phone-bluetoth img{
+    width: 150px;
+}
+
+.carregador{
+
+    border: solid black 1px;
+    width: 300px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+
+}
