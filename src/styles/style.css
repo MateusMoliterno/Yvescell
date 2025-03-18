@@ -174,11 +174,12 @@ li{
   .cardinicio{
     width: 100vw;
     height:752px;
+    border: solid black ;
   }
 
 
   .cardempresa{
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-direction: row-reverse;
     /* align-items: center; */
@@ -186,6 +187,7 @@ li{
     background-color:rgb(7, 167, 167) ;
     width: 100vw;
     gap: 20px;
+    border: solid black 2px;
   
   }
 
