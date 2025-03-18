@@ -5,9 +5,9 @@
     align-items: center;
     justify-content: center;
     background-color:rgb(7, 167, 167)  ;
-    /* border: solid black 2px; */
+    border: solid black 2px;
     gap: 70px;
-    height: 100vh;
+    height: 800px;
 }
 
 
