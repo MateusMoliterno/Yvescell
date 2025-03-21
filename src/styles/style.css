@@ -174,73 +174,10 @@ li{
   .cardinicio{
     width: 100vw;
     height:752px;
-    border: solid black ;
   }
 
 
-  .cardempresa{
-    height: 800px;
-    display: flex;
-    flex-direction: row-reverse;
-    /* align-items: center; */
-    justify-content: center;
-    background-color:rgb(7, 167, 167) ;
-    width: 100vw;
-    gap: 20px;
-    border: solid black 2px;
-  
-  }
-
-  .empresaapresentation{
-    /* border: solid black 2px; */
-    width: 30%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* text-align: center; */
-    padding: 0;
-    margin: 0;
-    margin-top: 190px;
-  
-
-  }
-
-
-  .empresaapresentation h3{
-    font-size: 35px;
-    /* border: solid black 2px; */
-    margin-top: 0%;
-    color: #FFC107;
-  }
-  .empresaapresentation h1{
-    font-size: 50px;
-    margin-top: -5%;
-    color: whitesmoke;
-  }
-  .empresaapresentation p{
-    font-size: 25px;
-    margin-top: -5%;
-    color: whitesmoke;
-  }
-
-  .imgempresa{
-    /* border: solid 2px black; */
-    height: 500px;
-    width: 50%;
-    margin-top: 100px;
-  }
-
-  .imgempresa img{
-    width: 500px;
-  }
-
-  .empresaapresentation button{
-    width: 120px;
-    height: 43px;
-    background-color: #FFC107;
-  }
-  
+ 
   @keyframes float {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
@@ -251,3 +188,92 @@ li{
   #flootingimage{
     animation: float 3s ease-in-out infinite;
   }
+
+
+  @media (min-width:320px) and (max-width:600px) {
+
+    .cardinicio{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .containerapresentation{
+      display: flex;
+      flex-direction: column;
+      margin-top: -365px;
+      gap: 30px;
+    }
+    
+    .slides img{
+      margin-top: 0;
+    }
+
+    header{
+      height: 50px;
+      gap: 95px;
+    }
+    ul{
+      display: none;
+    }
+    nav{
+      display: none;
+    }
+
+    h1{
+      font-size: 25px;
+    }
+
+    .contacts img{
+      width: 26px;
+    }
+
+    .slides img{
+      height: 600px;
+    }
+
+    .apresentation{
+      width: 300px;
+      /* border: solid black 2px; */
+      /* margin-top: -162%; */
+    }
+
+    .titlleapresentation{
+      font-size: 20px;
+    }
+
+    .apresentation h3{
+      font-size: 20px;
+    }
+
+    .apresentation p{
+      font-size: 15px;
+    }
+
+    .apresentation button{
+
+      width: 90px;
+      height: 30px;
+      font-size: 15px;
+      
+    }
+
+    .imginicio{
+      width: 170px;
+      height: 170px;
+      border: solid black 1px;
+      margin-top: 0;
+      margin-left: -30px;
+    }
+
+    #flootingimage{
+      width: 190px;
+    }
+
+  .indicators {
+    margin-top: 175%;
+    margin-left: -13%;
+    border: solid black 2px;
+
+  }
+
+}
